@@ -1,0 +1,4 @@
+docker build . -t rntreeapi
+
+
+docker run -d -p 8080:8080 rntreeapi
